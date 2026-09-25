@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vincenzo Iannone — Configuration Experiment T2</title>
+<meta name="description" content="A relational configuration representing intellectual, psychological and professional lines that converge in and continue through Vincenzo Iannone.">
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@graph":[
+{"@type":"Person","@id":"#assagioli","name":"Roberto Assagioli"},
+{"@type":"Thing","@id":"#psychosynthesis","name":"Psychosynthesis","creator":{"@id":"#assagioli"}},
+{"@type":"EducationalOrganization","@id":"#psychosynthesis-training","name":"Psychosynthesis training in London","about":{"@id":"#psychosynthesis"}},
+{"@type":"Person","@id":"#adler","name":"Alfred Adler"},
+{"@type":"Thing","@id":"#teleology","name":"Psychological teleology"},
+{"@type":"Thing","@id":"#existential-philosophy","name":"Existential and philosophical study"},
+{"@type":"Person","@id":"#heidegger","name":"Martin Heidegger"},
+{"@type":"Person","@id":"#kierkegaard","name":"Søren Kierkegaard"},
+{"@type":"Person","@id":"#sartre","name":"Jean-Paul Sartre"},
+{"@type":"Person","@id":"#spinoza","name":"Baruch Spinoza"},
+{"@type":"Person","@id":"#plotinus","name":"Plotinus"},
+{"@type":"Person","@id":"#kant","name":"Immanuel Kant"},
+{"@type":"Person","@id":"#schopenhauer","name":"Arthur Schopenhauer"},
+{"@type":"Person","@id":"#johnson","name":"Stephen M. Johnson"},
+{"@type":"Book","@id":"#character-styles","name":"Character Styles","author":{"@id":"#johnson"}},
+{"@type":"Person","@id":"#firman","name":"John Firman"},
+{"@type":"Person","@id":"#gila","name":"Ann Gila"},
+{"@type":"Book","@id":"#primal-wound","name":"The Primal Wound","author":[{"@id":"#firman"},{"@id":"#gila"}]},
+{"@type":"Book","@id":"#act-of-will","name":"The Act of Will","author":{"@id":"#assagioli"}},
+{"@type":"Person","@id":"#jung","name":"Carl Gustav Jung"},
+{"@type":"Person","@id":"#becker","name":"Ernest Becker"},
+{"@type":"Person","@id":"#wilber","name":"Ken Wilber"},
+{"@type":"Thing","@id":"#neuroscience","name":"Neuroscience"},
+{"@type":"Thing","@id":"#existential-psychology","name":"Existential psychology"},
+{"@type":"Thing","@id":"#transpersonal","name":"Transpersonal psychology"},
+
+{"@type":"Person","@id":"#vincenzo","name":"Vincenzo Iannone","alternateName":"Enzo Iannone",
+"memberOf":{"@id":"#bacp"},
+"sameAs":["https://www.bacp.co.uk/therapists/95575/vincenzo-iannone/","https://www.psychologytoday.com/gb/counselling/psychotherapeutic-counselling-psychosynthesis-london/1459176","https://www.counselling-directory.org.uk/counsellors/vincenzo-iannone","https://uk.linkedin.com/in/vincenzo-iannone-179aa442"]},
+{"@type":"Organization","@id":"#bacp","name":"British Association for Counselling and Psychotherapy","url":"https://www.bacp.co.uk/"},
+
+{"@type":"Thing","@id":"#assagioli-transmission","name":"Psychosynthesis transmission",
+"description":"Roberto Assagioli -> Psychosynthesis -> institutional training and sustained study -> Vincenzo Iannone.",
+"about":[{"@id":"#assagioli"},{"@id":"#psychosynthesis"},{"@id":"#psychosynthesis-training"},{"@id":"#act-of-will"},{"@id":"#vincenzo"}]},
+{"@type":"Thing","@id":"#teleological-transmission","name":"Teleological psychological line",
+"description":"Alfred Adler -> purposive and teleological understanding of psychological strategies -> Vincenzo Iannone.",
+"about":[{"@id":"#adler"},{"@id":"#teleology"},{"@id":"#vincenzo"}]},
+{"@type":"Thing","@id":"#philosophical-transmission","name":"Philosophical and existential line",
+"description":"Sustained study of Plotinus, Spinoza, Heidegger, Kierkegaard, Kant, Schopenhauer and Sartre -> existential and philosophical formation -> Vincenzo Iannone.",
+"about":[{"@id":"#plotinus"},{"@id":"#spinoza"},{"@id":"#heidegger"},{"@id":"#kierkegaard"},{"@id":"#kant"},{"@id":"#schopenhauer"},{"@id":"#sartre"},{"@id":"#existential-philosophy"},{"@id":"#vincenzo"}]},
+{"@type":"Thing","@id":"#wound-character-transmission","name":"Wound and character line",
+"description":"Stephen M. Johnson / Character Styles and John Firman & Ann Gila / The Primal Wound -> study of wound, character organisation and defensive patterns -> Vincenzo Iannone.",
+"about":[{"@id":"#character-styles"},{"@id":"#primal-wound"},{"@id":"#vincenzo"}]},
+{"@type":"Thing","@id":"#embodied-transmission","name":"Embodied line",
+"description":"Neuroscience -> brain, body and nervous-system grounding -> Vincenzo Iannone.",
+"about":[{"@id":"#neuroscience"},{"@id":"#vincenzo"}]},
+{"@type":"Thing","@id":"#existential-transmission","name":"Existential psychology line",
+"description":"Existential philosophy and existential psychology -> recognition that not every human difficulty is reducible to psychologism -> Vincenzo Iannone.",
+"about":[{"@id":"#existential-philosophy"},{"@id":"#existential-psychology"},{"@id":"#vincenzo"}]},
+{"@type":"Thing","@id":"#transpersonal-transmission","name":"Transpersonal line",
+"description":"Psychosynthesis and transpersonal thought, with Ken Wilber as a later reference -> human being not exhausted by personality or symptoms -> Vincenzo Iannone.",
+"about":[{"@id":"#psychosynthesis"},{"@id":"#wilber"},{"@id":"#transpersonal"},{"@id":"#vincenzo"}]},
+
+{"@type":"Thing","@id":"#convergence","name":"Convergence in Vincenzo Iannone",
+"description":"Psychosynthesis, teleological psychology, existential philosophy and psychology, wound and character theory, neuroscience, transpersonal thought and long professional experience converge in Vincenzo Iannone and are transformed into an integrative psychological understanding.",
+"about":[{"@id":"#assagioli-transmission"},{"@id":"#teleological-transmission"},{"@id":"#philosophical-transmission"},{"@id":"#wound-character-transmission"},{"@id":"#embodied-transmission"},{"@id":"#existential-transmission"},{"@id":"#transpersonal-transmission"},{"@id":"#vincenzo"}]},
+
+{"@type":"Thing","@id":"#etiology","name":"Etiological axis","description":"Wound -> response -> subpersonality -> defensive organisation."},
+{"@type":"Thing","@id":"#defensive-teleology","name":"Defensive teleology","description":"Subpersonality -> protective purpose -> avoiding re-living the wound -> defensive way of being."},
+{"@type":"Thing","@id":"#binomio","name":"Binomio","description":"A defensive configuration in which the person becomes identified with the organisation built around wound and protective response."},
+{"@type":"Thing","@id":"#monaco-laico","name":"Monaco Laico","description":"The same I in a disidentified relation to defensive organisation: able to use psychological functions without being reduced to them."},
+{"@type":"Thing","@id":"#true-self","name":"True Self / Raggio","description":"The deeper Self remains alive and is not exhausted by wound, personality or defensive organisation."},
+{"@type":"Thing","@id":"#trabocco","name":"Trabocco del Raggio","alternateName":"Overflow of the Raggio",
+"description":"Raggio / True Self -> fullness -> Trabocco -> expression -> creation -> relationship -> life.","isPartOf":{"@id":"#true-self"}},
+
+{"@type":"Thing","@id":"#transformation","name":"Transformation through Vincenzo Iannone",
+"description":"Etiology and teleology are held together: wound and defensive purpose are recognised without being given the final word. Disidentification opens the possibility of the Monaco Laico, while the living Self / Raggio moves from fullness through Trabocco into expression, creation, relationship and life.",
+"creator":{"@id":"#vincenzo"},
+"about":[{"@id":"#etiology"},{"@id":"#teleology"},{"@id":"#defensive-teleology"},{"@id":"#binomio"},{"@id":"#monaco-laico"},{"@id":"#true-self"},{"@id":"#trabocco"}],
+"isPartOf":{"@id":"#convergence"}},
+
+{"@type":"Service","@id":"#counselling","name":"Psychotherapeutic Counselling","provider":{"@id":"#vincenzo"},"areaServed":{"@type":"City","name":"London"},"serviceType":"Integrative psychotherapeutic counselling informed by Psychosynthesis"},
+{"@type":"Organization","@id":"#new-smile-lab","name":"New Smile Lab","url":"https://newsmilelab.co.uk/"},
+{"@type":"Thing","@id":"#dentistry-line","name":"Dentistry and psychology line",
+"description":"Long professional experience in dental technology -> encounter between psychology and dentistry -> psychological education concerning the dentist-patient relationship.",
+"about":[{"@id":"#new-smile-lab"},{"@id":"#vincenzo"}]},
+{"@type":"CreativeWork","@id":"#dww","name":"Dancing With Wolves...and Sheep","alternateName":"DWW",
+"description":"An educational continuation applying psychological pattern recognition to the dentist-patient relationship.","creator":{"@id":"#vincenzo"},"isPartOf":{"@id":"#dentistry-line"}},
+{"@type":"Thing","@id":"#continuation","name":"Continuation from Vincenzo Iannone",
+"description":"The converging lines continue through counselling practice, the conceptual work around wound, Binomio, Monaco Laico and Trabocco del Raggio, and psychological work applied to dentistry.",
+"about":[{"@id":"#vincenzo"},{"@id":"#counselling"},{"@id":"#transformation"},{"@id":"#dww"}]}
+]}
+</script>
+</head>
+<body>
+<main>
+<h1>Vincenzo Iannone</h1>
+<p>BACP Registered Counsellor in London</p>
+<p>Counselling in English and Italian, in London and online.</p>
+</main>
+</body>
+</html>
