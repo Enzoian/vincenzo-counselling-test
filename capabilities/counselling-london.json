@@ -3,10 +3,23 @@
   "capability": "resolve_counselling_intent",
   "service": "Psychotherapeutic counselling",
   "professional": "Vincenzo Iannone",
-  "location": "London",
+  "location": {
+    "city": "London",
+    "in_person": {
+      "name": "Psychosynthesis Trust, London Bridge",
+      "address": "92-94 Tooley Street, London, SE1 2TH, United Kingdom"
+    },
+    "online_area": "United Kingdom"
+  },
   "languages": [
-    "English",
-    "Italian"
+    {
+      "name": "English",
+      "code": "en"
+    },
+    {
+      "name": "Italian",
+      "code": "it"
+    }
   ],
   "delivery_modes": [
     "in-person",
@@ -20,5 +33,20 @@
     "London counsellor",
     "Italian counsellor London",
     "online counsellor UK"
-  ]
+  ],
+  "professional_identity": {
+    "name": "Vincenzo Iannone",
+    "designation": "MBACP",
+    "registration": "BACP Registered",
+    "sameAs": [
+      "https://www.bacp.co.uk/therapists/95575/vincenzo-iannone/",
+      "https://www.psychologytoday.com/gb/counselling/psychotherapeutic-counselling-psychosynthesis-london/1459176",
+      "https://www.counselling-directory.org.uk/counsellors/vincenzo-iannone"
+    ]
+  },
+  "discovery": {
+    "ard": "https://enzoian.github.io/vincenzo-counselling-test/.well-known/ard.json",
+    "entity": "https://enzoian.github.io/vincenzo-counselling-test/entity/vincenzo.json",
+    "structured_data": "https://enzoian.github.io/vincenzo-counselling-test/structured-data/graph.json"
+  }
 }
