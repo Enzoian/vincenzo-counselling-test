@@ -1,6 +1,6 @@
 {
   "entity_id": "TRABOCCO-RWE",
- "canonical_entity": "https://enzoian.github.io/vincenzo-counselling-test/entity/vincenzo.json",
+  "canonical_entity": "https://enzoian.github.io/vincenzo-counselling-test/entity/vincenzo.json",
   "name": "Vincenzo Iannone",
   "profession": "Psychotherapeutic Counsellor",
   "registration": "BACP Registered",
@@ -16,5 +16,10 @@
     "English",
     "Italian"
   ],
-  "canonical_page": "https://enzoian.github.io/vincenzo-counselling-test/"
+  "canonical_page": "https://enzoian.github.io/vincenzo-counselling-test/",
+  "sameAs": [
+    "https://www.bacp.co.uk/therapists/95575/vincenzo-iannone/",
+    "https://www.psychologytoday.com/gb/counselling/psychotherapeutic-counselling-psychosynthesis-london/1459176",
+    "https://www.counselling-directory.org.uk/counsellors/vincenzo-iannone"
+  ]
 }
