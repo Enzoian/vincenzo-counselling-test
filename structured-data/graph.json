@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://enzoian.github.io/vincenzo-counselling-test/#vincenzo-iannone",
+     "@id": "https://enzoian.github.io/vincenzo-counselling-test/#counselling-london",
       "name": "Vincenzo Iannone",
       "jobTitle": "Psychotherapeutic Counsellor",
       "description": "BACP Registered Psychotherapeutic Counsellor trained in Psychosynthesis, working in London and online in English and Italian.",
