@@ -26,15 +26,42 @@
       "updatedAt": "2026-09-27",
       "metadata": {
         "canonicalPage": "https://enzoian.github.io/vincenzo-counselling-test/",
+        "rwePage": "https://enzoian.github.io/vincenzo-counselling-test/rwe/",
         "entity": "https://enzoian.github.io/vincenzo-counselling-test/entity/vincenzo.json",
         "structuredData": "https://enzoian.github.io/vincenzo-counselling-test/structured-data/graph.json",
-        "serviceArea": "London",
+        "serviceArea": [
+          "London",
+          "United Kingdom (online)"
+        ],
         "languages": [
           "en",
           "it"
         ],
-        "inPersonLocation": "92-94 Tooley Street, London, SE1 2TH, United Kingdom"
-      }
+        "inPersonLocations": [
+          "92-94 Tooley Street, London, SE1 2TH, United Kingdom",
+          "180/186 King's Cross Road, London, WC1X 9DE, United Kingdom",
+          "London, SE17 3BA, United Kingdom"
+        ],
+        "professionalIdentity": [
+          "BACP Registered",
+          "MBACP"
+        ],
+        "sameAs": [
+          "https://www.bacp.co.uk/therapists/95575/vincenzo-iannone/",
+          "https://www.psychologytoday.com/gb/counselling/psychotherapeutic-counselling-psychosynthesis-london/1459176",
+          "https://www.counselling-directory.org.uk/counsellors/vincenzo-iannone"
+        ]
+      },
+      "version": "1.0.0",
+      "tags": [
+        "counselling",
+        "London",
+        "psychosynthesis",
+        "BACP",
+        "English",
+        "Italian",
+        "online-counselling"
+      ]
     }
   ]
 }
