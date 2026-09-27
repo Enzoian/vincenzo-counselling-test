@@ -13,13 +13,37 @@
     "online"
   ],
   "languages": [
-    "English",
-    "Italian"
+    {
+      "name": "English",
+      "code": "en"
+    },
+    {
+      "name": "Italian",
+      "code": "it"
+    }
   ],
   "canonical_page": "https://enzoian.github.io/vincenzo-counselling-test/",
   "sameAs": [
     "https://www.bacp.co.uk/therapists/95575/vincenzo-iannone/",
     "https://www.psychologytoday.com/gb/counselling/psychotherapeutic-counselling-psychosynthesis-london/1459176",
     "https://www.counselling-directory.org.uk/counsellors/vincenzo-iannone"
-  ]
+  ],
+  "designatory_letters": "MBACP",
+  "professional_body": {
+    "name": "British Association for Counselling and Psychotherapy",
+    "alternate_name": "BACP",
+    "url": "https://www.bacp.co.uk/",
+    "relationship": "Registered Member"
+  },
+  "service": {
+    "id": "TRABOCCO-RWE",
+    "type": "Psychotherapeutic counselling",
+    "area_served": "London",
+    "delivery_modes": [
+      "in-person",
+      "online"
+    ],
+    "provider": "Vincenzo Iannone",
+    "url": "https://enzoian.github.io/vincenzo-counselling-test/"
+  }
 }
