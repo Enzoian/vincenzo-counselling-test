@@ -120,6 +120,28 @@
         },
         {
           "@type": "ServiceChannel",
+          "name": "In-person counselling at King's Cross",
+          "serviceLocation": {
+            "@id": "https://enzoian.github.io/vincenzo-counselling-test/#kings-cross-location"
+          },
+          "availableLanguage": [
+            "en",
+            "it"
+          ]
+        },
+        {
+          "@type": "ServiceChannel",
+          "name": "In-person counselling in SE17",
+          "serviceLocation": {
+            "@id": "https://enzoian.github.io/vincenzo-counselling-test/#se17-location"
+          },
+          "availableLanguage": [
+            "en",
+            "it"
+          ]
+        },
+        {
+          "@type": "ServiceChannel",
           "name": "Online counselling in the UK",
           "serviceUrl": "https://enzoian.github.io/vincenzo-counselling-test/",
           "availableLanguage": [
@@ -128,6 +150,29 @@
           ]
         }
       ]
+    },
+    {
+      "@type": "Place",
+      "@id": "https://enzoian.github.io/vincenzo-counselling-test/#kings-cross-location",
+      "name": "Relational Spaces — King's Cross, Room 302",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Room 302, 180/186 King's Cross Road",
+        "addressLocality": "London",
+        "postalCode": "WC1X 9DE",
+        "addressCountry": "GB"
+      }
+    },
+    {
+      "@type": "Place",
+      "@id": "https://enzoian.github.io/vincenzo-counselling-test/#se17-location",
+      "name": "Counselling location — SE17 3BA",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "London",
+        "postalCode": "SE17 3BA",
+        "addressCountry": "GB"
+      }
     }
   ]
 }
