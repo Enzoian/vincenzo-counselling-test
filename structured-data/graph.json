@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+     "@id": "https://enzoian.github.io/vincenzo-counselling-test/#counselling-london",
+      "name": "Vincenzo Iannone",
+      "jobTitle": "Psychotherapeutic Counsellor",
+      "description": "BACP Registered Psychotherapeutic Counsellor trained in Psychosynthesis, working in London and online in English and Italian.",
+      "url": "https://enzoian.github.io/vincenzo-counselling-test/",
+      "knowsLanguage": [
+        "English",
+        "Italian"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://enzoian.github.io/vincenzo-counselling-test/rwe/#counselling-london",
+      "name": "Psychotherapeutic Counselling in London",
+      "serviceType": "Psychotherapeutic counselling",
+      "provider": {
+        "@id": "https://enzoian.github.io/vincenzo-counselling-test/#vincenzo-iannone"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "London"
+      },
+      "availableLanguage": [
+        "English",
+        "Italian"
+      ],
+      "url": "https://enzoian.github.io/vincenzo-counselling-test/",
+      "identifier": "TRABOCCO-RWE"
+    }
+  ]
+}
