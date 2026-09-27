@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "Person",
-     "@id": "https://enzoian.github.io/vincenzo-counselling-test/#counselling-london",
+      "@id": "https://enzoian.github.io/vincenzo-counselling-test/#vincenzo-iannone",
       "name": "Vincenzo Iannone",
       "jobTitle": "Psychotherapeutic Counsellor",
       "description": "BACP Registered Psychotherapeutic Counsellor trained in Psychosynthesis, working in London and online in English and Italian.",
@@ -11,6 +11,11 @@
       "knowsLanguage": [
         "English",
         "Italian"
+      ],
+      "sameAs": [
+        "https://www.bacp.co.uk/therapists/95575/vincenzo-iannone/",
+        "https://www.psychologytoday.com/gb/counselling/psychotherapeutic-counselling-psychosynthesis-london/1459176",
+        "https://www.counselling-directory.org.uk/counsellors/vincenzo-iannone"
       ]
     },
     {
