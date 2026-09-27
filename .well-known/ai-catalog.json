@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "@id": "urn:air:enzoian.github.io:counselling:trabocco-rwe",
+      "identifier": "urn:air:enzoian.github.io:counselling:trabocco-rwe",
+      "displayName": "Vincenzo Iannone — Counselling in London",
+      "type": "application/json",
+      "url": "https://enzoian.github.io/vincenzo-counselling-test/rwe/capabilities/counselling-london.json",
+      "description": "Machine-readable resource describing Vincenzo Iannone's psychotherapeutic counselling service in London and online, in English and Italian.",
+      "representativeQueries": [
+        "counsellor in London",
+        "find a counsellor in London",
+        "London counsellor",
+        "Italian counsellor London",
+        "online counsellor UK"
+      ],
+      "capabilities": [
+        "psychotherapeutic-counselling",
+        "psychosynthesis",
+        "counselling-london",
+        "online-counselling",
+        "english",
+        "italian"
+      ]
+    }
+  ]
+}
