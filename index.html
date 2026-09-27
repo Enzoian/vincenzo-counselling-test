@@ -6,6 +6,7 @@
 <title>Vincenzo Iannone — Psychotherapeutic Counsellor in London</title>
 <meta name="description" content="Vincenzo Iannone is a BACP Registered Psychotherapeutic Counsellor trained in Psychosynthesis, working in London and online in English and Italian.">
 <link rel="canonical" href="https://enzoian.github.io/vincenzo-counselling-test/">
+<link rel="ard" href="https://enzoian.github.io/vincenzo-counselling-test/.well-known/ard.json">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -73,6 +74,12 @@
       },
       "memberOf": {
         "@id": "https://enzoian.github.io/vincenzo-counselling-test/#bacp"
+      },
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@id": "https://enzoian.github.io/vincenzo-counselling-test/rwe/#counselling-london"
+        }
       }
     },
     {
@@ -81,6 +88,18 @@
       "name": "British Association for Counselling and Psychotherapy",
       "alternateName": "BACP",
       "url": "https://www.bacp.co.uk/"
+    },
+    {
+      "@type": "Place",
+      "@id": "https://enzoian.github.io/vincenzo-counselling-test/#psychosynthesis-trust-location",
+      "name": "Psychosynthesis Trust, London Bridge",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "92-94 Tooley Street",
+        "addressLocality": "London",
+        "postalCode": "SE1 2TH",
+        "addressCountry": "GB"
+      }
     },
     {
       "@type": "Service",
@@ -93,47 +112,36 @@
       "provider": {
         "@id": "https://enzoian.github.io/vincenzo-counselling-test/#vincenzo-iannone"
       },
-      "areaServed": {
-        "@type": "City",
-        "name": "London"
-      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "London"
+        },
+        {
+          "@type": "Country",
+          "name": "United Kingdom"
+        }
+      ],
       "url": "https://enzoian.github.io/vincenzo-counselling-test/",
       "availableChannel": [
         {
           "@type": "ServiceChannel",
-          "name": "In-person counselling in London",
+          "name": "In-person counselling in London Bridge",
           "serviceLocation": {
-            "@type": "City",
-            "name": "London"
+            "@id": "https://enzoian.github.io/vincenzo-counselling-test/#psychosynthesis-trust-location"
           },
           "availableLanguage": [
-            {
-              "@type": "Language",
-              "name": "English",
-              "alternateName": "en"
-            },
-            {
-              "@type": "Language",
-              "name": "Italian",
-              "alternateName": "it"
-            }
+            "en",
+            "it"
           ]
         },
         {
           "@type": "ServiceChannel",
-          "name": "Online counselling",
+          "name": "Online counselling in the UK",
           "serviceUrl": "https://enzoian.github.io/vincenzo-counselling-test/",
           "availableLanguage": [
-            {
-              "@type": "Language",
-              "name": "English",
-              "alternateName": "en"
-            },
-            {
-              "@type": "Language",
-              "name": "Italian",
-              "alternateName": "it"
-            }
+            "en",
+            "it"
           ]
         }
       ]
@@ -445,7 +453,7 @@ footer { max-width:var(--max); margin:auto; padding:28px 24px 60px; color:var(--
 <p>When the problem is not simply suffering, but the sense that there is more of you that has not found expression.</p>
 <h3>Vincenzo Iannone</h3>
 <p>I am a BACP Registered Psychotherapeutic Counsellor trained in Psychosynthesis. I have been working with people since 2013.</p>
-<p>I offer counselling in London and online, in English and Italian.</p>
+<p>I offer counselling in London and online, in English and Italian.</p>\n<p>In-person sessions are available at 92-94 Tooley Street, London, SE1 2TH, and online across the UK.</p>
 </section>
 <section id="what-brings-you-here" class="house-section">
 <div class="section-kicker">WHAT BRINGS YOU HERE</div>
