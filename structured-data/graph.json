@@ -154,10 +154,10 @@
     {
       "@type": "Place",
       "@id": "https://enzoian.github.io/vincenzo-counselling-test/#kings-cross-location",
-      "name": "Relational Spaces — King's Cross, Room 302",
+      "name": "Relational Spaces — King's Cross",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Room 302, 180/186 King's Cross Road",
+        "streetAddress": "180/186 King's Cross Road",
         "addressLocality": "London",
         "postalCode": "WC1X 9DE",
         "addressCountry": "GB"
