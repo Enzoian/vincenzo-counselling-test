@@ -18,8 +18,8 @@
         "country": "GB"
       },
       {
-        "name": "Relational Spaces — King's Cross, Room 302",
-        "street_address": "Room 302, 180/186 King's Cross Road",
+        "name": "Relational Spaces — King's Cross",
+        "street_address": "180/186 King's Cross Road",
         "locality": "London",
         "postal_code": "WC1X 9DE",
         "country": "GB"
@@ -75,7 +75,7 @@
     "capability_url": "https://enzoian.github.io/vincenzo-counselling-test/capabilities/counselling-london.json",
     "in_person_locations": [
       "92-94 Tooley Street, London, SE1 2TH, United Kingdom",
-      "Room 302, 180/186 King's Cross Road, London, WC1X 9DE, United Kingdom",
+      "180/186 King's Cross Road, London, WC1X 9DE, United Kingdom",
       "London, SE17 3BA, United Kingdom"
     ]
   },
