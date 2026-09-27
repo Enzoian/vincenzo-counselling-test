@@ -7,7 +7,16 @@
   "training": [
     "Psychosynthesis"
   ],
-  "location": "London",
+  "location": {
+    "name": "London",
+    "in_person_location": {
+      "name": "Psychosynthesis Trust, London Bridge",
+      "street_address": "92-94 Tooley Street",
+      "locality": "London",
+      "postal_code": "SE1 2TH",
+      "country": "GB"
+    }
+  },
   "delivery_modes": [
     "in-person",
     "online"
@@ -38,12 +47,18 @@
   "service": {
     "id": "TRABOCCO-RWE",
     "type": "Psychotherapeutic counselling",
-    "area_served": "London",
+    "area_served": [
+      "London",
+      "United Kingdom (online)"
+    ],
     "delivery_modes": [
       "in-person",
       "online"
     ],
     "provider": "Vincenzo Iannone",
-    "url": "https://enzoian.github.io/vincenzo-counselling-test/"
-  }
+    "url": "https://enzoian.github.io/vincenzo-counselling-test/",
+    "in_person_location": "92-94 Tooley Street, London, SE1 2TH, United Kingdom",
+    "capability_url": "https://enzoian.github.io/vincenzo-counselling-test/capabilities/counselling-london.json"
+  },
+  "ard_manifest": "https://enzoian.github.io/vincenzo-counselling-test/.well-known/ard.json"
 }
