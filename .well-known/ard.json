@@ -6,7 +6,7 @@
       "identifier": "urn:air:enzoian.github.io:counselling:trabocco-rwe",
       "displayName": "Vincenzo Iannone — Counselling in London",
       "type": "application/json",
-      "url": "https://enzoian.github.io/vincenzo-counselling-test/rwe/capabilities/counselling-london.json",
+      "url": "https://enzoian.github.io/vincenzo-counselling-test/capabilities/counselling-london.json",
       "description": "Machine-readable resource describing Vincenzo Iannone's psychotherapeutic counselling service in London and online, in English and Italian.",
       "representativeQueries": [
         "counsellor in London",
@@ -22,7 +22,19 @@
         "online-counselling",
         "english",
         "italian"
-      ]
+      ],
+      "updatedAt": "2026-09-27",
+      "metadata": {
+        "canonicalPage": "https://enzoian.github.io/vincenzo-counselling-test/",
+        "entity": "https://enzoian.github.io/vincenzo-counselling-test/entity/vincenzo.json",
+        "structuredData": "https://enzoian.github.io/vincenzo-counselling-test/structured-data/graph.json",
+        "serviceArea": "London",
+        "languages": [
+          "en",
+          "it"
+        ],
+        "inPersonLocation": "92-94 Tooley Street, London, SE1 2TH, United Kingdom"
+      }
     }
   ]
 }
