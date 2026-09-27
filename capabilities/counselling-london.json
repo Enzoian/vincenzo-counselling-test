@@ -12,7 +12,7 @@
     "in-person",
     "online"
   ],
-  "entity": "https://enzoian.github.io/vincenzo-counselling-test/rwe/entity/vincenzo.json",
+  "entity": "https://enzoian.github.io/vincenzo-counselling-test/entity/vincenzo.json",
   "canonical_page": "https://enzoian.github.io/vincenzo-counselling-test/",
   "representativeQueries": [
     "counsellor in London",
