@@ -5,10 +5,20 @@
   "professional": "Vincenzo Iannone",
   "location": {
     "city": "London",
-    "in_person": {
-      "name": "Psychosynthesis Trust, London Bridge",
-      "address": "92-94 Tooley Street, London, SE1 2TH, United Kingdom"
-    },
+    "in_person": [
+      {
+        "name": "Psychosynthesis Trust, London Bridge",
+        "address": "92-94 Tooley Street, London, SE1 2TH, United Kingdom"
+      },
+      {
+        "name": "Relational Spaces — King's Cross, Room 302",
+        "address": "Room 302, 180/186 King's Cross Road, London, WC1X 9DE, United Kingdom"
+      },
+      {
+        "name": "Counselling location — SE17",
+        "address": "London, SE17 3BA, United Kingdom"
+      }
+    ],
     "online_area": "United Kingdom"
   },
   "languages": [
