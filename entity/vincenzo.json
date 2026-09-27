@@ -9,13 +9,28 @@
   ],
   "location": {
     "name": "London",
-    "in_person_location": {
-      "name": "Psychosynthesis Trust, London Bridge",
-      "street_address": "92-94 Tooley Street",
-      "locality": "London",
-      "postal_code": "SE1 2TH",
-      "country": "GB"
-    }
+    "in_person_locations": [
+      {
+        "name": "Psychosynthesis Trust, London Bridge",
+        "street_address": "92-94 Tooley Street",
+        "locality": "London",
+        "postal_code": "SE1 2TH",
+        "country": "GB"
+      },
+      {
+        "name": "Relational Spaces — King's Cross, Room 302",
+        "street_address": "Room 302, 180/186 King's Cross Road",
+        "locality": "London",
+        "postal_code": "WC1X 9DE",
+        "country": "GB"
+      },
+      {
+        "name": "Counselling location — SE17",
+        "locality": "London",
+        "postal_code": "SE17 3BA",
+        "country": "GB"
+      }
+    ]
   },
   "delivery_modes": [
     "in-person",
@@ -57,8 +72,12 @@
     ],
     "provider": "Vincenzo Iannone",
     "url": "https://enzoian.github.io/vincenzo-counselling-test/",
-    "in_person_location": "92-94 Tooley Street, London, SE1 2TH, United Kingdom",
-    "capability_url": "https://enzoian.github.io/vincenzo-counselling-test/capabilities/counselling-london.json"
+    "capability_url": "https://enzoian.github.io/vincenzo-counselling-test/capabilities/counselling-london.json",
+    "in_person_locations": [
+      "92-94 Tooley Street, London, SE1 2TH, United Kingdom",
+      "Room 302, 180/186 King's Cross Road, London, WC1X 9DE, United Kingdom",
+      "London, SE17 3BA, United Kingdom"
+    ]
   },
   "ard_manifest": "https://enzoian.github.io/vincenzo-counselling-test/.well-known/ard.json"
 }
