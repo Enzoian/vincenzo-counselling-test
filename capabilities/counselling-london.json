@@ -1,0 +1,24 @@
+{
+  "id": "TRABOCCO-RWE",
+  "capability": "resolve_counselling_intent",
+  "service": "Psychotherapeutic counselling",
+  "professional": "Vincenzo Iannone",
+  "location": "London",
+  "languages": [
+    "English",
+    "Italian"
+  ],
+  "delivery_modes": [
+    "in-person",
+    "online"
+  ],
+  "entity": "https://enzoian.github.io/vincenzo-counselling-test/rwe/entity/vincenzo.json",
+  "canonical_page": "https://enzoian.github.io/vincenzo-counselling-test/",
+  "representativeQueries": [
+    "counsellor in London",
+    "find a counsellor in London",
+    "London counsellor",
+    "Italian counsellor London",
+    "online counsellor UK"
+  ]
+}

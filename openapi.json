@@ -1,0 +1,35 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "TRABOCCO-RWE Counselling Resource",
+    "version": "0.1.0",
+    "description": "Static machine-readable interface for the RWE Trabocco 2 experiment. No executable POST API is claimed in this static GitHub Pages package."
+  },
+  "servers": [
+    {
+      "url": "https://enzoian.github.io/vincenzo-counselling-test/rwe"
+    }
+  ],
+  "paths": {
+    "/entity/vincenzo.json": {
+      "get": {
+        "operationId": "getVincenzoEntity",
+        "responses": {
+          "200": {
+            "description": "Vincenzo entity record"
+          }
+        }
+      }
+    },
+    "/capabilities/counselling-london.json": {
+      "get": {
+        "operationId": "getCounsellingLondonCapability",
+        "responses": {
+          "200": {
+            "description": "Counselling capability record"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "entity_id": "TRABOCCO-RWE",
+  "canonical_entity": "https://enzoian.github.io/vincenzo-counselling-test/rwe/entity/vincenzo.json",
+  "name": "Vincenzo Iannone",
+  "profession": "Psychotherapeutic Counsellor",
+  "registration": "BACP Registered",
+  "training": [
+    "Psychosynthesis"
+  ],
+  "location": "London",
+  "delivery_modes": [
+    "in-person",
+    "online"
+  ],
+  "languages": [
+    "English",
+    "Italian"
+  ],
+  "canonical_page": "https://enzoian.github.io/vincenzo-counselling-test/"
+}
