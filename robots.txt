@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Agentmap: https://enzoian.github.io/vincenzo-counselling-test/.well-known/ard.json
+
+Sitemap: https://enzoian.github.io/vincenzo-counselling-test/sitemap.xml
